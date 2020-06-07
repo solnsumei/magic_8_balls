@@ -37,7 +37,7 @@ class Ball extends StatefulWidget {
 }
 
 class _BallState extends State<Ball> {
-  TextEditingController questionController = TextEditingController();
+  final TextEditingController questionController = TextEditingController();
   int ballNumber = 3;
 
   Widget build(BuildContext context) {
